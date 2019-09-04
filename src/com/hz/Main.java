@@ -16,6 +16,9 @@ public class Main {
         String ans1 = reader.readLine();
 
         // todo: make this work!!!
+        // 'no', 'i don't think so' must be read as false
+        // 'yes', 'of course' etc must be read as true
+
         if(ans1 == true) {
             model.setSocialActive(true);
         }
