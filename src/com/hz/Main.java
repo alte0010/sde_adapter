@@ -6,7 +6,7 @@ public class Main {
 
         // start survey
         HealthModel model = new HealthModel();
-        InputReader reader = new InputReader();
+        ConsoleReader reader = new ConsoleReader();
 
         // ask questions
         String q1 = "Do you often go (out) with friends?";
