@@ -12,8 +12,10 @@ public class Main {
         String q1 = "Do you often go (out) with friends?";
         System.out.println(q1);
 
-        Boolean ans1 = reader.readline();
-        model.setSocialActive(ans1);
+        boolean ans1 = reader.readLine();
+        if(ans1) {
+            model.setSocialActive(ans1);
+        }
 
         int score = model.calculateHealthScore();
 
